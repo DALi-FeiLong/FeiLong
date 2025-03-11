@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เข้าสู่ระบบเพื่อดูรูปภาพ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>กรอกรหัสผ่านเพื่อดูรูปภาพ</h2>
+        <input type="password" id="password" placeholder="ใส่รหัสผ่านเเค่ตัวเลข">
+        <button onclick="checkPassword()">ยืนยันเพื่อดูรูป</button>
+        <p id="message"></p>
+        <div id="imageContainer" style="display: none;">
+            <img src="Fei.jpg" alt="รูปภาพที่ถูกล็อก" width="1000">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
